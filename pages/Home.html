@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home | top-secret</title>
+    <script type="module" crossorigin src="../assets/main.js"></script>
+    <link rel="modulepreload" crossorigin href="../assets/jsx-runtime.js">
+    <link rel="modulepreload" crossorigin href="../assets/createLucideIcon.js">
+    <link rel="modulepreload" crossorigin href="../assets/proxy.js">
+    <link rel="modulepreload" crossorigin href="./components/NavBar.js">
+    <link rel="modulepreload" crossorigin href="./components/Footer.js">
+    <link rel="modulepreload" crossorigin href="./components/TypewriterText.js">
+    <link rel="modulepreload" crossorigin href="./components/ClassificationStamp.js">
+    <link rel="modulepreload" crossorigin href="./components/RedactionBar.js">
+    <link rel="stylesheet" crossorigin href="../assets/main.css">
+    <script>
+  window.__STATIC_PAGE_ROUTE__ = "/";
+
+  (function () {
+    if (!window.location.hash || window.location.hash === "#") {
+      window.location.replace(
+        window.location.pathname +
+        window.location.search +
+        "#/"
+      );
+    }
+  })();
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
